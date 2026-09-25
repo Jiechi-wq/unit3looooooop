@@ -12,6 +12,8 @@
 // Use a for loop and .push() to build the array one number at a time.
 function getNumbersInRange(start, end) {
   // TODO: your code here
+  for (i = 0, )
+  let result = []
 
 }
 
