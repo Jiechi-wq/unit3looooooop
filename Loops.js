@@ -27,21 +27,31 @@ console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8] */
 // ---------- Problem 2: Sum a Range ----------
 // Return the sum of every integer from start to end, inclusive.
 // Use the accumulator pattern: let total = 0; total += i; each pass.
-function sumRange(start, end) {
+/* function sumRange(start, end) {
   // TODO: your code here
-
+  let total = 0;
+  while (start<=end){
+    total = total + start;
+    start = start + 1;
+  }
+  return total;
 }
 
 console.log(sumRange(1, 5));   // 15
 console.log(sumRange(1, 100)); // 5050
 console.log(sumRange(4, 4));   // 4
-
+ */
 
 // ---------- Problem 3: Countdown ----------
 // Return an array counting down from n to 1.
 // Use a while loop, not a for loop.
 function countdown(n) {
   // TODO: your code here
+  let counter = n;
+  while(n>0){
+    n = n-1; 
+  }
+  return counter
 
 }
 
