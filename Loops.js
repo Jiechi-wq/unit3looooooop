@@ -45,20 +45,20 @@ console.log(sumRange(4, 4));   // 4
 // ---------- Problem 3: Countdown ----------
 // Return an array counting down from n to 1.
 // Use a while loop, not a for loop.
-function countdown(n) {
+/* function countdown(n) {
   // TODO: your code here
-  let counter = n;
+  let counter = [];
   while(n>0){
-    n = n-1; 
+    counter.push(n);
+    n = n-1;
   }
   return counter
-
 }
 
 console.log(countdown(5)); // [5, 4, 3, 2, 1]
 console.log(countdown(1)); // [1]
 console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
-
+ */
 
 // ---------- Problem 4: Count the Vowels ----------
 // Return the number of vowels (a, e, i, o, u — lowercase only) in str.
@@ -68,6 +68,12 @@ console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
 function countVowels(str) {
   // TODO: your code here
 
+  for(let i = 0; str.length >0;){
+    if (str.char === "a"){
+      console.log(i);
+    }
+  }
+  return vowels
 }
 
 console.log(countVowels("hello"));      // 2
